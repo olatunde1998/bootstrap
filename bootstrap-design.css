@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px){
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+    }
+}
+.information{
+    text-align: justify;
+    margin: 5%;
+}
+.content{
+    background-color: darkslategray;
+    color:white;
+
+}
+h3{
+    text-align: center;
+}
+@media screen and (min-width: 1024px){
+    .content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom:20px;
+        background-color: darkslategray;
+        color: white;
+    }
+}
+.footer{
+    margin-left:20%
+    
+}
+.business{
+    margin-bottom:5px;
+}
+
+
